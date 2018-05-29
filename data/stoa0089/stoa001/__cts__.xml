@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+	groupUrn="urn:cts:latinLit:stoa0089"
+	urn="urn:cts:latinLit:stoa0089.stoa001"
+	xml:lang="lat">
+
+	<ti:title xml:lang="eng">Carminum minorum corpusculum</ti:title>
+
+	<ti:edition 
+		workUrn="urn:cts:latinLit:stoa0089.stoa001" 
+		urn="urn:cts:latinLit:stoa0089.stoa001.hd-lat1">
+
+		<ti:label xml:lang="eng">Poème 51 - Edition Hyperdonat</ti:label>
+
+		<ti:description xml:lang="eng">
+			Basé sur l'édition toto
+		</ti:description>
+	</ti:edition>
+
+</ti:work>

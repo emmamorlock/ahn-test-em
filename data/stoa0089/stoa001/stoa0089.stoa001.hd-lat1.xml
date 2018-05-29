@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="andria" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Title</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<refsDecl n="CTS">
+				<cRefPattern n="line" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+					<p>This pointer pattern extracts the line</p>
+				</cRefPattern>
+				<cRefPattern n="poem" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>This pointer pattern extracts the poem</p>
+				</cRefPattern>
+			</refsDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="edition" n="urn:cts:latinLit:stoa0089.stoa001.hd-lat1" xml:lang="lat">
+				<div type="textpart" subtype="poem" n="51">
+					<l n="1">iuppiter in parvo cum cerneret aethera vitro</l>
+					<l n="2">risit et ad superos talia dicta dedit</l>
+					<l n="3">hucine mortalis progressa potentia curae</l>
+					<l n="4">iam meus in fragili luditur orbe labor</l>
+					<l n="5">iura poli rerumque fidem legesque deorum</l>
+					<l n="6">ecce syracusius transtulit arte senex</l>
+					<l n="7">inclusus variis famulatur spiritus astris</l>
+					<l n="8">et vivum certis motibus urget opus</l>
+					<l n="9">percurrit proprium mentitus signifer annum</l>
+					<l n="10">et simulata novo cynthia mense redit</l>
+					<l n="11">iamque suum volvens audax industria mundum</l>
+					<l n="12">gaudet et humana sidera mente regit</l>
+					<l n="13">quid falso insontem tonitru salmonea miror</l>
+					<l n="14">aemula naturae parva reperta manus</l>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

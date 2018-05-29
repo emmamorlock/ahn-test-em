@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+	groupUrn="urn:cts:latinLit:stoa0089"
+	urn="urn:cts:latinLit:stoa0089.stoa001"
+	xml:lang="lat">
+
+	<ti:title xml:lang="eng">Carminum minorum corpusculum</ti:title>
+
+	<ti:edition 
+		workUrn="urn:cts:latinLit:stoa0089" 
+		urn="urn:cts:latinLit:stoa0089.stoa001.hd-lat1">
+
+		<ti:label xml:lang="eng">Martial's Epigrammata</ti:label>
+		<!--
+          Edition and Translation must have at least one description node.
+          Description node needs xml:lang declaration, it reflects the language of the description.
+          
+        -->
+		<ti:description xml:lang="eng">
+			M. Valerii Martialis Epigrammaton libri / recognovit W. Heraeus
+		</ti:description>
+	</ti:edition>
+	<!--
+      The translation node has three attributes :
+        - The first one, workUrn, contains only the urn up to the work component
+        - The second, urn, contains the full urn
+        - The third, xml:lang, contains the language of the translation
+    -->
+	<ti:translation workUrn="urn:cts:latinLit:phi1294.phi002" urn="urn:cts:latinLit:phi1294.phi002.perseus-eng2" xml:lang="eng">
+		<ti:label xml:lang="eng">Epigrammata</ti:label>
+		<ti:description xml:lang="eng">Nice translations informations</ti:description>
+	</ti:translation>
+</ti:work>
